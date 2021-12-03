@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGDemo.Registration">
+      <class name="TestNGDemo.ChromeBrowser">
         <methods>
-          <include name="beforeTest"/>
-          <include name="tearDown"/>
-          <include name="WebElementRegistration"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="ChromeBrowser"/>
         </methods>
-      </class> <!-- TestNGDemo.Registration -->
+      </class> <!-- TestNGDemo.ChromeBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
