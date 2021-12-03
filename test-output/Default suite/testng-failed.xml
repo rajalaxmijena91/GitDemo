@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGDemo.ChromeBrowser">
+      <class name="seleniumBasics.FirstTestNGTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="ChromeBrowser"/>
+          <include name="afterTestTest"/>
+          <include name="beforeTestTest"/>
         </methods>
-      </class> <!-- TestNGDemo.ChromeBrowser -->
+      </class> <!-- seleniumBasics.FirstTestNGTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

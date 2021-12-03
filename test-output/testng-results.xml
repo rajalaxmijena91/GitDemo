@@ -1,31 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[The Home Page loaded- Testautomation practice page]]>
+      <![CDATA[The Home Page loadedNumpy Ninja]]>
+    </line>
+    <line>
+      <![CDATA[Username Editbox valueid_username]]>
+    </line>
+    <line>
+      <![CDATA[Username Editbox valuebhakti]]>
+    </line>
+    <line>
+      <![CDATA[Password editbox valuexyzabc]]>
+    </line>
+    <line>
+      <![CDATA[reenterPassword editbox valuexyzabc]]>
+    </line>
+    <line>
+      <![CDATA[The Home Page loadedNumpy Ninja]]>
+    </line>
+    <line>
+      <![CDATA[Username Editbox idid_username]]>
+    </line>
+    <line>
+      <![CDATA[Username Editbox valuebhakti]]>
+    </line>
+    <line>
+      <![CDATA[Password editbox valuexyzabc]]>
+    </line>
+    <line>
+      <![CDATA[Reenter Password editbox value  xyzabc]]>
+    </line>
+    <line>
+      <![CDATA[Reenter Password editbox Text  ]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-02T05:09:50Z" name="Default suite" finished-at="2021-12-02T05:10:14Z" duration-ms="24125">
+  <suite started-at="2021-12-03T21:31:54Z" name="Default suite" finished-at="2021-12-03T21:32:45Z" duration-ms="51927">
     <groups>
     </groups>
-    <test started-at="2021-12-02T05:09:50Z" name="Default test" finished-at="2021-12-02T05:10:14Z" duration-ms="24125">
-      <class name="TestNGDemo.RadioButtonCheckBox2">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNGDemo.RadioButtonCheckBox2@2d901eb0]" started-at="2021-12-02T05:09:50Z" name="beforeTest" finished-at="2021-12-02T05:10:06Z" duration-ms="16002" status="PASS">
+    <test started-at="2021-12-03T21:31:54Z" name="Default test" finished-at="2021-12-03T21:32:45Z" duration-ms="51927">
+      <class name="TestNGDemo.AutomateRegistration">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGDemo.AutomateRegistration@5f049ea1]" started-at="2021-12-03T21:31:54Z" name="beforeMethod" finished-at="2021-12-03T21:32:01Z" duration-ms="7944" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[The Home Page loaded- Testautomation practice page]]>
+              <![CDATA[The Home Page loadedNumpy Ninja]]>
             </line>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="SelectRadioButtonandCheckBox()[pri:0, instance:TestNGDemo.RadioButtonCheckBox2@2d901eb0]" started-at="2021-12-02T05:10:06Z" name="SelectRadioButtonandCheckBox" finished-at="2021-12-02T05:10:12Z" duration-ms="6860" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="NegRegistration()[pri:0, instance:TestNGDemo.AutomateRegistration@5f049ea1]" started-at="2021-12-03T21:32:01Z" name="NegRegistration" finished-at="2021-12-03T21:32:12Z" duration-ms="10855" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username Editbox valueid_username]]>
+            </line>
+            <line>
+              <![CDATA[Username Editbox valuebhakti]]>
+            </line>
+            <line>
+              <![CDATA[Password editbox valuexyzabc]]>
+            </line>
+            <line>
+              <![CDATA[reenterPassword editbox valuexyzabc]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NegRegistration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGDemo.AutomateRegistration@5f049ea1]" started-at="2021-12-03T21:32:12Z" name="afterMethod" finished-at="2021-12-03T21:32:13Z" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectRadioButtonandCheckBox -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGDemo.RadioButtonCheckBox2@2d901eb0]" started-at="2021-12-02T05:10:12Z" name="afterTest" finished-at="2021-12-02T05:10:14Z" duration-ms="1218" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGDemo.AutomateRegistration@5f049ea1]" started-at="2021-12-03T21:32:13Z" name="beforeMethod" finished-at="2021-12-03T21:32:19Z" duration-ms="6793" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Home Page loadedNumpy Ninja]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Positivescenario()[pri:0, instance:TestNGDemo.AutomateRegistration@5f049ea1]" started-at="2021-12-03T21:32:19Z" name="Positivescenario" finished-at="2021-12-03T21:32:41Z" duration-ms="21839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username Editbox idid_username]]>
+            </line>
+            <line>
+              <![CDATA[Username Editbox valuebhakti]]>
+            </line>
+            <line>
+              <![CDATA[Password editbox valuexyzabc]]>
+            </line>
+            <line>
+              <![CDATA[Reenter Password editbox value  xyzabc]]>
+            </line>
+            <line>
+              <![CDATA[Reenter Password editbox Text  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Positivescenario -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGDemo.AutomateRegistration@5f049ea1]" started-at="2021-12-03T21:32:41Z" name="afterMethod" finished-at="2021-12-03T21:32:45Z" duration-ms="4119" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-N18APC6D', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9278e49832f7c8d6f4f6d577aca92b37, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\RAJALA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50445/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9278e49832f7c8d6f4f6d577aca92b37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-N18APC6D', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9278e49832f7c8d6f4f6d577aca92b37, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\RAJALA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50445/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9278e49832f7c8d6f4f6d577aca92b37
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:444)
+at TestNGDemo.AutomateRegistration.afterMethod(AutomateRegistration.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNGDemo.RadioButtonCheckBox2 -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNGDemo.AutomateRegistration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
